@@ -1,12 +1,10 @@
-# Audiobook-Player Wiki
+# Frequently Asked Questions
 
-## Frequently Asked Questions
-
-### Whats coming next to BookPlayer?
+## Whats coming next to BookPlayer?
 
 See [our Roadmap](https://github.com/GianniCarlo/Audiobook-Player/projects/1).
 
-### How to combine MP3 files into M4B audio books
+## How to combine MP3 files into M4B audio books
 
 While BookPlayer supports playing MP3 just fine, it really shines when used with M4B based audio books.
 

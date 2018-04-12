@@ -2,4 +2,4 @@
 
 ## Frequently Asked Questions
 
-- [How to create audiobooks from MP3](faq/how-to-create)
+- [How to create audiobooks from MP3](faq-create)

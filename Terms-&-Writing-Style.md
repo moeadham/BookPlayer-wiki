@@ -1,3 +1,5 @@
+## Naming things
+
 It's not always easy to name things in a larger project, so this page tries to lay out some base rules.
 
 - The app is called *BookPlayer*.

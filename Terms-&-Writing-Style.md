@@ -14,3 +14,4 @@ It's not always easy to name things in a larger project, so this page tries to l
 ## Style
 
 - Alerts should be concise but friendly.
+- Follow [iOS Human Interface Guidelines](https://developer.apple.com/ios/human-interface-guidelines/visual-design/terminology/)

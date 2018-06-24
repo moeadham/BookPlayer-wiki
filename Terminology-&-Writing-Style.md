@@ -9,6 +9,7 @@ It's not always easy to name things in a larger project, so this page tries to l
 - A book is always a *book*, we don't need to say audiobook.
 - You can only import *files* not books, they become *items* (in a playlist) or *books* (in the *Library*) only after import.
 - All alerts should provide named actions, never yes or no.
+- BookPlayer has a `Player` screen and a `Mini Player` floating at the bottom of the Library
 
 ## Style
 

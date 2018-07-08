@@ -2,7 +2,13 @@
 
 ## Whats coming next to BookPlayer?
 
-See [our Roadmap](https://github.com/GianniCarlo/Audiobook-Player/projects/1).
+See [our Roadmap](https://github.com/TortugaPower/BookPlayer/projects/1).
+
+## Where can I get audiobooks that work with BookPlayer?
+
+[LibriVox](https://librivox.org/) provides many wonderful audiobooks to start. They even have a M4B download option which is the format that works best with BookPlayer. 
+
+You can also easily combine the MP3 files from audiobooks you bought on CD using the tools found below.
 
 ## How to combine MP3 files into M4B audio books
 

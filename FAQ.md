@@ -1,5 +1,3 @@
-# Frequently Asked Questions
-
 ## Whats coming next to BookPlayer?
 
 See [our Roadmap](https://github.com/TortugaPower/BookPlayer/projects/1).

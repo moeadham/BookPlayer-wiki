@@ -34,7 +34,7 @@ Other apps you may have installed in your phone (like Dropbox, Google Drive), wi
 
 - [iTunes File Sharing](https://support.apple.com/en-us/HT201301). This requires iTunes installed and it’s independent of platform (you can do it if you have a Windows or a Mac).
 
-## Problem importing multiple files via Third-party local apps
+## Problems importing multiple files via Third-party local apps
 
 We have received feedback that after selecting multiple files and pressing 'Done' nothing happens.
 

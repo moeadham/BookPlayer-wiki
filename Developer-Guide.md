@@ -42,3 +42,12 @@ To add a new app icon, you need to:
   - Create a new `Dictionary` key for both options. Use the `title` of the new icon as the name of the key
   - For these newly created `Dictionary` keys, add a new `Array` key for each of them. Use `CFBundleIconFiles` as the name of the new `Array` keys.
   - The final step, is to add one element to each of these new `Array` keys. This new element is a `String` type, and should have the `imageName` as its value
+
+## Unlocking Plus options
+The easiest way is to remove the `locked` key from the `json` objects inside the files [Info.plist](https://github.com/TortugaPower/BookPlayer/blob/develop/BookPlayer/Info.plist) and [Icons.json](https://github.com/TortugaPower/BookPlayer/blob/develop/BookPlayer/Library/Icons/Icons.json). When you launch the app, everything should be unlocked.
+
+The other option is to modify the preferences file of the app, it usually is found in the following path inside the app container: `Library/Preferences/com.tortugapower.audiobookplayer.plist`. In this file, add the following entry
+```
+<key>userSettingsDonationMade</key>
+<true/>
+```

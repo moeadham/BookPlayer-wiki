@@ -40,7 +40,7 @@ To add a new app icon, you need to:
 | --- | --- | --- |
 | id | String | The id of the icon |
 | title | String | The name that you want displayed inside the app |
-| imageName | String | (Hex code) Light variant for the primary color |
+| imageName | String | The name of the image file |
 
 2. Provide the necessary image assets for the [iPhone folder](https://github.com/TortugaPower/BookPlayer/blob/develop/BookPlayer/Library/Icons/assets/iPhone) and the [iPad folder](https://github.com/TortugaPower/BookPlayer/blob/develop/BookPlayer/Library/Icons/assets/iPad).
   - iPhone sizes: 120x120 (@2x), 180x180 (@3x)

@@ -1,5 +1,12 @@
 This page is intended for developers looking to extend existing functionality (like adding more themes or app icons)
 
+### Contents  
+- [Adding more themes](#themes)
+- [Adding more app icons](#icons)
+- [Unlocking Plus options](#plus)
+
+<a name="themes"/>
+
 ## Adding more themes
 All the colors in the app, are derived from four main colors for the light variant, and four main colors for the dark variant. These colors are categorized as: 
 
@@ -22,6 +29,8 @@ To create a new theme, it's as simple as adding a new entry in the file [Themes.
 | darkAccent | String | (Hex code) Dark variant for the highlight color |
 | darkBackground | String | (Hex code) Dark variant for the background color |
 
+<a name="icons"/>
+
 ## Adding App Icons
 To add a new app icon, you need to:
 
@@ -43,11 +52,13 @@ To add a new app icon, you need to:
   - For these newly created `Dictionary` keys, add a new `Array` key for each of them. Use `CFBundleIconFiles` as the name of the new `Array` keys.
   - The final step, is to add one element to each of these new `Array` keys. This new element is a `String` type, and should have the `imageName` as its value
 
+<a name="plus"/>
+
 ## Unlocking Plus options
 The easiest way is to remove the `locked` key from the `json` objects inside the files [Info.plist](https://github.com/TortugaPower/BookPlayer/blob/develop/BookPlayer/Info.plist) and [Icons.json](https://github.com/TortugaPower/BookPlayer/blob/develop/BookPlayer/Library/Icons/Icons.json). When you launch the app, everything should be unlocked.
 
 The other option is to modify the preferences file of the app, it usually is found in the following path inside the app container: `Library/Preferences/com.tortugapower.audiobookplayer.plist`. In this file, add the following entry
-```
+```xml
 <key>userSettingsDonationMade</key>
 <true/>
 ```

@@ -49,6 +49,7 @@ Configures the Sleep Timer, with the specified `seconds` parameter
 Accepted values for `seconds`:
 * `-2`, sets timer until the end of current chapter
 * `-1`, cancels the timer
+* Any value greater than `0`, sets timer with that time
 
 ### Example
 

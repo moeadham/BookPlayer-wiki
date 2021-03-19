@@ -70,14 +70,30 @@ To create a new theme, it's as simple as adding a new entry in the file [Themes.
 | Field name | Type | Description |
 | --- | --- | --- |
 | title | String | The name that you want displayed inside the app |
-| defaultPrimary | String | (Hex code) Light variant for the primary color |
-| defaultSecondary | String | (Hex code) Light variant for the secondary color |
-| defaultAccent | String | (Hex code) Light variant for the highlight color |
-| defaultBackground | String | (Hex code) Light variant for the background color |
-| darkPrimary | String | (Hex code) Dark variant for the primary color |
-| darkSecondary | String | (Hex code) Dark variant for the secondary color |
-| darkAccent | String | (Hex code) Dark variant for the highlight color |
-| darkBackground | String | (Hex code) Dark variant for the background color |
+| lightPrimaryHex | String | (Hex code) Light variant used for primary labels like titles |
+| lightSecondaryHex | String | (Hex code) Light variant used for secondary labels like descriptions |
+| lightAccentHex | String | (Hex code) Light variant used for actionable items |
+| lightSeparatorHex | String | (Hex code) Light variant used for the line separators in tables |
+| lightSystemBackgroundHex | String | (Hex code) Light variant used for the background of the library view |
+| lightSecondarySystemBackgroundHex | String | (Hex code) Light variant used for the hovering mini player |
+| lightTertiarySystemBackgroundHex | String | (Hex code) Light variant used for the progress pie |
+| lightSystemGroupedBackgroundHex | String | (Hex code) Light variant used for the background of the settings view |
+| lightSystemFillHex | String | (Hex code) Light variant used for the progress pie |
+| lightSecondarySystemFillHex | String | (Hex code) Light variant used for the progress pie |
+| lightTertiarySystemFillHex | String | (Hex code) Light variant not actually used but needed |
+| lightQuaternarySystemFillHex | String | (Hex code) Light variant not actually used but needed |
+| darkPrimaryHex | String | (Hex code) Dark variant used for primary labels like titles |
+| darkSecondaryHex | String | (Hex code) Dark variant used for secondary labels like descriptions |
+| darkAccentHex | String | (Hex code) Dark variant used for actionable items |
+| darkSeparatorHex | String | (Hex code) Dark variant for the highlight color |
+| darkSystemBackgroundHex | String | (Hex code) Dark variant used for the background of the library view |
+| darkSecondarySystemBackgroundHex | String | (Hex code) Dark variant used for the hovering mini player |
+| darkTertiarySystemBackgroundHex | String | (Hex code) Dark variant used for the progress pie |
+| darkSystemGroupedBackgroundHex | String | (Hex code) Dark variant used for the background of the settings view |
+| darkSystemFillHex | String | (Hex code) Dark variant used for the progress pie  |
+| darkSecondarySystemFillHex | String | (Hex code) Dark variant used for the progress pie |
+| darkTertiarySystemFillHex | String | (Hex code) Dark variant not actually used but needed |
+| darkQuaternarySystemFillHex | String | (Hex code) Dark variant not actually used but needed |
 
 <a name="icons"/>
 

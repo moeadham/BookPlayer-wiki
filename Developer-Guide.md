@@ -20,7 +20,7 @@ After cloning the repository in your device, follow these steps to have BookPlay
 Up to this point, you can already run BookPlayer in your simulator, but if you want to run it in your device, then you'll need to access your account in the (Apple's developer website](https://developer.apple.com) and continue with the following points:
 
 - First we'll need a development certificate for your machine, verify in the [Certificate list](https://developer.apple.com/account/resources/certificates/list) if you can spot the one for your current machine. If not, you can manually generate the certificate following [this guide](https://ioscodesigning.com/generating-code-signing-files/#generate-a-code-signing-certificate-manually), download it, and double click to install the certificate.
-- Now, before creating the app identifier, it'll be easier for us, if we first the App Groups container and the iCloud container:
+- Now, before creating the app identifier, it'll be easier for us, if we first create the App Groups container and the iCloud container:
   - Go to [register a new identifier](https://developer.apple.com/account/resources/identifiers/add/bundleId), select `App Groups` and press `Continue`
   - For the `Description`, you can use any value that will make it easier for you to identify that it's for BookPlayer. For the `Identifier`, as soon as you type something, you'll notice that `group` is automatically added to the field, add the bundle id that you'll use for the main app, and add the sufix `.files` at the end, so the final Identifier will look something like `group.com.test-bundle.id.files`
 

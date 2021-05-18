@@ -17,7 +17,7 @@ After cloning the repository in your device, follow these steps to have BookPlay
 
   <img width="561" alt="Screen Shot 2021-05-18 at 08 54 40" src="https://user-images.githubusercontent.com/14112819/118663969-b7c4f000-b7b6-11eb-8343-6428ee9d2fa9.png">
 
-Up to this point, you can already run BookPlayer in your simulator, but if you want to run it in your device, then you'll need to access your account in the (Apple's developer website](https://developer.apple.com) and continue with the following points:
+Up to this point, you can already run BookPlayer in your simulator, but if you want to run it in your device, then you'll need to access your account in the [Apple's developer website](https://developer.apple.com) and continue with the following points:
 
 - First we'll need a development certificate for your machine, verify in the [Certificate list](https://developer.apple.com/account/resources/certificates/list) if you can spot the one for your current machine. If not, you can manually generate the certificate following [this guide](https://ioscodesigning.com/generating-code-signing-files/#generate-a-code-signing-certificate-manually), download it, and double click to install the certificate.
 - Now, before creating the app identifier, it'll be easier for us, if we first create the App Groups container and the iCloud container:
@@ -72,7 +72,7 @@ We are now ready to fill the configuration values:
 - `BP_PROVISIONING_INTENTS` → The provisioning profile that used the App ID with the wildcard
 - `BP_PROVISIONING_WIDGET_UI` → The provisioning profile that used the App ID with the suffix `.BookPlayerWidgetUI`
 
-You should be able to run the project now 💪 (if you find any problems, please feel free to open a ticket, or contact us via Discord)
+You should be able to run the project now in your device 💪 (if you find any problems, please feel free to open a ticket, or contact us via Discord)
 
 <a name="themes"/>
 

@@ -16,7 +16,8 @@ To create these, there are several tools at your disposal:
 
 - [Audiobook Binder](http://bluezbox.com/audiobookbinder.html) (Mac, Free) 
 - [Audiobook Creator](http://www.audiobookcreator.de/en/index.html) (Windows, Free) 
-- [Chapter and Verse](http://lodensoftware.com/chapter-and-verse/) (Windows, Free) 
+- [Chapter and Verse](http://lodensoftware.com/chapter-and-verse/) (Windows, Free)
+- [fre:ac](https://www.freac.org) (Windows, Mac, Linux, Free)
 
 We do not have any affiliation with any of these tools. If you find something that works better for you, please tell us so we can extend our list.
 

@@ -22,6 +22,17 @@ We do not have any affiliation with any of these tools. If you find something th
 
 Combining your files not only makes it easier to handle them, but also makes it easier for BookPlayer to display the right artwork and chapters.
 
+## Making use of the in-app 'Combine into Volume' feature
+
+If for any reason you prefer to keep your books as a list of mp3s, you can also make use of our Volume feature from within the app. That is to say, you can convert any playlist of mp3s into a single book volume, which will have those mp3s as the chapters. One of the advantages of having your playlists as volumes, is that the bookmarks you create, will apply to the entire volume, as opposed to playlists, which only applies the bookmark to the current file you're listening to.
+
+There are two main scenarios where you'll be able to use this feature: 
+* When you import multiple books at once, you'll be prompted to either move them into a playlist, or combine them into a volume 
+* For existing items in your library, there are two ways to go about it:
+  * If you already have your books organized in playlists, then just go to the playlist's options (by swiping left on the playlist, or by tapping Edit in the top right corner, selecting the playlist, and tapping the '...' button in the bottom floating bar), and choose 'Combine into Volume'
+  * You can also select existing books (not a mix of books and playlists), and combine them into a single volume via the option shown by tapping the '...' button mentioned before
+
+
 ## How to import audiobooks into BookPlayer
 
 BookPlayer supports three ways to import audiobooks:

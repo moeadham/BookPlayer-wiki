@@ -16,6 +16,8 @@ After cloning the repository in your device, follow these steps to have BookPlay
 - Open the project in Xcode, and open the file you just created `Debug.xcconfig`. You will find that it has multiple parameters to be filled
 
   <img width="561" alt="Screen Shot 2021-05-18 at 08 54 40" src="https://user-images.githubusercontent.com/14112819/118663969-b7c4f000-b7b6-11eb-8343-6428ee9d2fa9.png">
+  
+  _Note: if you open Xcode before these steps, you'll find that the `Debug` file in the project is in color red, do not delete it, removing the reference will cause problems when launching the app. If it got deleted, then with git, discard the changes made to the `project.pbxproj` and please do the previous steps first_
 
 Up to this point, you can already run BookPlayer in your simulator, but if you want to run it in your device, then you'll need to access your account in the [Apple's developer website](https://developer.apple.com) and continue with the following points:
 

@@ -39,7 +39,7 @@ Up to this point, you can already run BookPlayer in your simulator, but if you w
   - Go to [register a new identifier](https://developer.apple.com/account/resources/identifiers/add/bundleId), select `App Ids` and press `Continue`
   - Select `App` and press `Continue`
   - For the `Description`, you can use any value that will make it easier for you to identify that it's for BookPlayer. For the `Bundle ID`, make sure the option `Explicit` is selected, and we'll add the same bundle id that you used when creating the containers in the previous step, so the Bundle ID will look something like `com.test-bundle.id` (This is our base bundle id we'll use for future steps)
-  - From the Capabilties list, make sure you select `App Groups`, `iCloud` and `SiriKit`
+  - From the Capabilties list, make sure you select `App Groups`, `iCloud`, `SiriKit`, and `Sign In with Apple`
   - Press `Continue` and then `Confirm` to finish creating the main App Id for your configuration
   - From [the list of App IDs](https://developer.apple.com/account/resources/identifiers/list), select your newly created App Id, and now you'll configure the App Groups and iCloud Container we have already created
 
@@ -49,9 +49,9 @@ Up to this point, you can already run BookPlayer in your simulator, but if you w
 - BookPlayer requires App IDs for all its current extensions, so we need to repeat the previous process for creating an App ID, with these minor observations:
   - Create a new App ID with the bundle id being the base bundle id + the suffix `.BookPlayerWidget` (for our example it would look something like `com.test-bundle.id.BookPlayerWidget`). This App ID needs to have the same App Group capability enabled and configured like the main App ID (no iCloud needed)
   - Create a new App ID with the bundle id being the base bundle id + the suffix `.watchkitapp` (for our example it would look something like `com.test-bundle.id.watchkitapp`). This App ID needs to have the same App Group capability enabled and configured like the main App ID (no iCloud needed)
-  - Create a new App ID with the bundle id being the base bundle id + the suffix `.watchkitapp.watchkitextension` (for our example it would look something like `com.test-bundle.id.watchkitapp.watchkitextension`). This App ID needs to have the same App Group capability enabled and configured like the main App ID (no iCloud needed)
+  - Create a new App ID with the bundle id being the base bundle id + the suffix `.watchkitapp.widgets` (for our example it would look something like `com.test-bundle.id.watchkitapp.widgets`). This App ID needs to have the same App Group capability enabled and configured like the main App ID (no iCloud needed)
   - Create a new App ID with the bundle id being the base bundle id + the suffix `.BookPlayerWidgetUI` (for our example it would look something like `com.test-bundle.id.BookPlayerWidgetUI`). This App ID needs to have the same App Group capability enabled and configured like the main App ID (no iCloud needed)
-  - Create a new App ID with the bundle id being the base bundle id + the suffix `.BookPlayerWidgetUI` (for our example it would look something like `com.test-bundle.id.BookPlayerWidgetUI`). This App ID needs to have the same App Group capability enabled and configured like the main App ID (no iCloud needed)
+  - Create a new App ID with the bundle id being the base bundle id + the suffix `.BookPlayerShareExtension` (for our example it would look something like `com.test-bundle.id.BookPlayerShareExtension`). This App ID needs to have the same App Group capability enabled and configured like the main App ID (no iCloud needed)  
   - If you don't have an App ID that is just a wildcard `*` then you'll need to create it, this will be used for the Intents extension, which doesn't require capabilities enabled
 - The last thing we need to do in the Apple developer website, is to create a development provisioning profile for each one of the the App IDs we created in the previous step. Thankfully, this is straightforward:
   - Go to [Register a New Provisioning Profile](https://developer.apple.com/account/resources/profiles/add)
@@ -70,9 +70,10 @@ We are now ready to fill the configuration values:
 - `BP_PROVISIONING_MAIN` → The provisioning profile that used the first App ID we created
 - `BP_PROVISIONING_WIDGET` → The provisioning profile that used the App ID with the suffix `.BookPlayerWidget`
 - `BP_PROVISIONING_WATCH` → The provisioning profile that used the App ID with the suffix `.watchkitapp`
-- `BP_PROVISIONING_WATCH_EXTENSION` → The provisioning profile that used the App ID with the suffix `.watchkitapp.watchkitextension`
+- `BP_PROVISIONING_WATCH_WIDGETS` → The provisioning profile that used the App ID with the suffix `.watchkitapp.widgets`
 - `BP_PROVISIONING_INTENTS` → The provisioning profile that used the App ID with the wildcard
 - `BP_PROVISIONING_WIDGET_UI` → The provisioning profile that used the App ID with the suffix `.BookPlayerWidgetUI`
+- `BP_PROVISIONING_SHARE_EXTENSION` → The provisioning profile that used the App ID with the suffix `.BookPlayerShareExtension`
 
 You should be able to run the project now in your device 💪 (if you find any problems, please feel free to open a ticket, or contact us via Discord)
 
